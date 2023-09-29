@@ -15,9 +15,9 @@ export default function Greeting(props) {
           <div className="greeting-text-div">
             <div>
               <h1 className="greeting-text" style={{ color: theme.text }}>
-                {greeting.title}
+                {greeting?.title}
               </h1>
-              {greeting.nickname && (
+              {greeting?.nickname && (
                 <h2 className="greeting-nickname" style={{ color: theme.text }}>
                   ( {greeting.nickname} )
                 </h2>
@@ -26,7 +26,7 @@ export default function Greeting(props) {
                 className="greeting-text-p subTitle"
                 style={{ color: theme.secondaryText }}
               >
-                {greeting.subTitle}
+                {greeting?.subTitle}
               </p>
               <SocialMedia theme={theme} />
               <div className="portfolio-repo-btn-div">

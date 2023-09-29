@@ -40,15 +40,15 @@ function SeoHeader() {
   const data = {
     "@context": "https://schema.org/",
     "@type": "Person",
-    name: greeting.title,
+    name: greeting?.title,
     url: seo?.og?.url,
     email: mail,
     telephone: contactPageData.phoneSection?.subtitle,
     sameAs: sameAs,
-    jobTitle: job.title,
+    jobTitle: job?.title,
     worksFor: {
       "@type": "Organization",
-      name: job.company,
+      name: job?.company,
     },
     address: {
       "@type": "PostalAddress",
@@ -63,7 +63,7 @@ function SeoHeader() {
   return (
     <Helmet>
       <title>{seo.title}</title>
-      <meta name="description" content={seo.description} />
+      <meta name="description" content={seo?.description} />
       <meta property="og:title" content={seo?.og?.title} />
       <meta property="og:type" content={seo?.og?.type} />
       <meta property="og:url" content={seo?.og?.url} />

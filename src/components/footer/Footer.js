@@ -6,13 +6,21 @@ import { greeting } from "../../portfolio.js";
 
 export default function Footer(props) {
   return (
-    <div className="footer-div">
-      <Fade>
-        <p className="footer-text" style={{ color: props.theme.secondaryText }}>
-          Made with <span role="img">❤️</span> by {greeting.title}
-        </p>
-        {/* <ToggleSwitch theme={props.theme} onToggle={props.onToggle}/> */}
-      </Fade>
-    </div>
+    // remove props.isVisible if you want to show it by default in every page
+    <>
+      {props.isVisible && (
+        <div className="footer-div">
+          <Fade>
+            <p
+              className="footer-text"
+              style={{ color: props.theme.secondaryText }}
+            >
+              Made with <span role="img">❤️</span> by {greeting?.title}
+            </p>
+            {/* <ToggleSwitch theme={props.theme} onToggle={props.onToggle}/> */}
+          </Fade>
+        </div>
+      )}
+    </>
   );
 }
