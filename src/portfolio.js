@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "Where technology meets magic, I find my passion. Fuelled by curiosity, I explore, learn, and find joy in empowering others towards a better future",
   resumeLink:
-    "https://drive.google.com/file/d/1FL_wydnPF2SWCdw2goYAgZ1KKBx8TpcD/view?usp=sharing",
+    "https://drive.google.com/file/d/17QG9oqKTa5uWrKf94Wvq-txM1iXxOc6R/view?usp=sharing",
   portfolio_repository: "https://github.com/CosmoBean/masterPortfolio",
   githubProfile: "https://github.com/CosmoBean",
 };
@@ -48,7 +48,7 @@ const socialMediaLinks = [
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/ashutosh1919/",
+    link: "https://www.linkedin.com/in/sri-datta-bandreddi/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
@@ -64,12 +64,17 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
     backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
   },
-
   {
     name: "Instagram",
     link: "https://www.instagram.com/sri_datt.a/",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
+  },
+  {
+    name: "Telegram",
+    link: "https://t.me/SillyFoxB",
+    fontAwesomeIcon: "fa-telegram", // Reference https://fontawesome.com/icons/instagram?style=brands
+    backgroundColor: "#1E3050", // Reference https://simpleicons.org/?q=instagram
   },
 ];
 
@@ -533,7 +538,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "blue-gradient-circle-380.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "Feel free to reach out via the links provided below. I'm always eager to hear your feedback or explore collaboration opportunities on projects.",
   },
   blogSection: {
     title: "Blogs",
