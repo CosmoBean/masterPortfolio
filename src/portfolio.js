@@ -56,7 +56,7 @@ const socialMediaLinks = [
     name: "Gmail",
     link: "mailto:sridatta.bandreddi@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
-    backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
+    backgroundColor: "#EA4335", // Reference https://simpleicons.org/?q=gmail
   },
   {
     name: "Twitter",
@@ -319,7 +319,7 @@ const degrees = {
       descriptions: [
         "⚡ I have opted for elective software engineering subject: Data Structures and Algorithms",
         "⚡ Apart from this, I have done courses on machine learning and fullstack development.",
-        "⚡ Student Mentor for around 120 first year student, and Student Council Representative for Mechanical Engineering Dept.",
+        "⚡ Student Mentor for around 120 first year students, and Student Council Representative for Mechanical Engineering Dept.",
       ],
       website_link: "https://vnit.ac.in/",
     },
@@ -382,7 +382,7 @@ const experience = {
           company: "Phenom People",
           company_url: "https://www.phenom.com/",
           logo_path: "phenom_icon.png",
-          duration: "May 2021 - JUN 2022",
+          duration: "May 2021 - Jun 2022",
           location: "Hyderabad, Telangana",
           description:
             "worked as part of a four-person team, collaborated to develop a classification model. This model was specifically designed for an internal use-case, with the primary aim of enhancing the validation process for other models that were deployed within the same environment. Learned and leveraged various machine learning algorithms.  Developed two database package clients for migrations.",
