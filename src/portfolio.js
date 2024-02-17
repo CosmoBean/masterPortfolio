@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "Where technology meets magic, I find my passion. Fuelled by curiosity, I explore, learn, and find joy in empowering others towards a better future",
   resumeLink:
-    "https://drive.google.com/file/d/17QG9oqKTa5uWrKf94Wvq-txM1iXxOc6R/view?usp=sharing",
+    "https://drive.google.com/file/d/1aRXJeK07nFZRmPg958rSsjUEG58y-4E5/view?usp=sharing",
   portfolio_repository: "https://github.com/CosmoBean/masterPortfolio",
   githubProfile: "https://github.com/CosmoBean",
 };
