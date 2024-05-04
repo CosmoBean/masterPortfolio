@@ -366,10 +366,9 @@ const experience = {
           company: "BYJU'S",
           company_url: "https://byjus.com/",
           logo_path: "byjus_logo.png",
-          duration: "Jul 2022 - Present",
+          duration: "Jul 2022 - Dec 2023",
           location: "Hyderabad, Telangana",
-          description:
-            "Contributed as part of the Identity management system at BYJU'S. Contributed to the devlopment of many features, as well as led the development of Admin console for an internal RBAC system. Mentored multiple interns to groom them for individual contributions. Mainly worked with AWS, close monitoring and development of practices for efficient deployments, as well as cost monitoring.",
+          description:""
           color: "#fc1f20",
         },
       ],
