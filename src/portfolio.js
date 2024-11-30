@@ -329,6 +329,35 @@ const degrees = {
 const certifications = {
   certifications: [
     {
+      title: "Nanotechnology and Nanosensors, Part 1",
+      subtitle: "- Technion - Israel Institute of Technology",
+      logo_path: "coursera_logo.png",
+      certificate_link: "https://www.coursera.org/account/accomplishments/records/XTJ0XG1Z51YU",
+      alt_name: "Coursera",
+      color_code: "#2A73CC",
+      issued_date: "Issued Nov 2024",
+    },
+    {
+      title:
+        "Introduction to Mechanical Engineering Design and Manufacturing with Fusion 360 (with Honors)",
+      subtitle: "- Autodesk",
+      logo_path: "coursera_logo.png",
+      certificate_link: "https://www.coursera.org/account/accomplishments/records/85XYDN9CDTD7",
+      alt_name: "Coursera",
+      color_code: "#2A73CC",
+      issued_date: "Issued Aug 2020",
+    },
+    {
+      title:
+        "Modeling and Design for Mechanical Engineers with Autodesk Fusion 360 (with Honors)",
+      subtitle: "- Autodesk",
+      logo_path: "coursera_logo.png",
+      certificate_link: "https://www.coursera.org/account/accomplishments/records/8ZPN6FVUBYNE",
+      alt_name: "Coursera",
+      color_code: "#2A73CC",
+      issued_date: "Issued Aug 2020",
+    },
+    {
       title: "Introduction to Computer Science and Programming using Python",
       subtitle: "- John Guttag ",
       logo_path: "mitx-500.png",
@@ -361,12 +390,23 @@ const experience = {
       title: "Work",
       work: true,
       experiences: [
+         {
+          title: "Product Development Engineer",
+          company: "Phenom",
+          company_url: "https://phenom.com/",
+          logo_path: "phenom_logo.png",
+          duration: "Dec 2023 - Present",
+          location: "Hyderabad, Telangana",
+          description:
+              "Have contributed to development of multiple products, and have been a part of the core team to rework and stabilize a product based on analytics and genrative AI from scratch. Have contributed to designing and deploying scalable systems.",
+          color: "#000000",
+        },
         {
           title: "Software Engineer",
           company: "BYJU'S",
           company_url: "https://byjus.com/",
           logo_path: "byjus_logo.png",
-          duration: "Jul 2022 - Present",
+          duration: "Jul 2022 - Dec 2023",
           location: "Hyderabad, Telangana",
           description:
             "Contributed as part of the Identity management system at BYJU'S. Contributed to the devlopment of many features, as well as led the development of Admin console for an internal RBAC system. Mentored multiple interns to groom them for individual contributions. Mainly worked with AWS, close monitoring and development of practices for efficient deployments, as well as cost monitoring.",
